@@ -8,7 +8,7 @@ export default async function BookResult({ params }) {
   return (
     <>
       <div className="mb-4">
-        <h2 className="text-lg font-semibold">검색 결과: "{keyword}"</h2>
+        <h2 className="text-lg font-semibold">검색 결과: &quot;{keyword}&quot;</h2>
         <p className="text-gray-600">총 {books.length}권의 책을 찾았습니다.</p>
       </div>
       {books.map((b, i) => (
