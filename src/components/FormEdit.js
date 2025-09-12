@@ -4,7 +4,7 @@ import { useTransition } from "react";
 import { addReview, removeReview } from "@/lib/actions";
 
 export default function FormEdit({ src: { id, read, memo } }) {
-  const [isPending, startTransition] = useTransition();
+  const [, startTransition] = useTransition();
 
   return (
     <form action={addReview}>
