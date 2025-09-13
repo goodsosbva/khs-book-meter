@@ -134,6 +134,7 @@ Vercel 대시보드에서 다음 환경변수들을 설정하세요:
 
 - **[완전 개발 가이드](./COMPLETE_DEVELOPMENT_GUIDE.md)** - 처음부터 끝까지의 전체 개발 과정
 - **[배포 가이드](./DEPLOYMENT_GUIDE.md)** - 배포 과정 및 문제 해결
+- **[Prisma 설정 가이드](./PRISMA_SETUP_GUIDE.md)** - Prisma 설정 및 동작 원리 상세 설명
 
 ### 🐛 문제 해결
 
@@ -193,6 +194,6 @@ Vercel 대시보드에서 다음 환경변수들을 설정하세요:
 
 ---
 
-**개발자**: 황제님  
+**개발자**: 권현성
 **기술 스택**: Next.js + Prisma + Neon + Vercel  
 **배포 상태**: ✅ 정상 작동 중
